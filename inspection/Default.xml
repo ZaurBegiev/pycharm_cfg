@@ -13,6 +13,8 @@
     <option name="ignoredIdentifiers">
       <list>
         <option value="float.__getitem__" />
+        <option value="functions.fad" />
+        <option value="datetime.datetime.dt" />
       </list>
     </option>
   </inspection_tool>
