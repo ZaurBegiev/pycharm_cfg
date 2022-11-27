@@ -1,16 +1,5 @@
 <profile version="1.0">
   <option name="myName" value="Default" />
-  <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
-    <option name="myValues">
-      <value>
-        <list size="1">
-          <item index="0" class="java.lang.String" itemvalue="url_for(" />
-        </list>
-      </value>
-    </option>
-    <option name="myCustomValuesEnabled" value="true" />
-  </inspection_tool>
-  <inspection_tool class="PyBroadExceptionInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="PyInterpreterInspection" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="ignoredPackages">
@@ -25,15 +14,22 @@
     <option name="ignoredErrors">
       <list>
         <option value="N806" />
+        <option value="N803" />
       </list>
     </option>
   </inspection_tool>
   <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="ignoredIdentifiers">
       <list>
-        <option value="datetime.datetime.__getitem__" />
         <option value="float.__getitem__" />
+        <option value="functions.fad" />
+        <option value="datetime.datetime.dt" />
       </list>
     </option>
+  </inspection_tool>
+  <inspection_tool class="SpellCheckingInspection" enabled="true" level="TYPO" enabled_by_default="true">
+    <option name="processCode" value="false" />
+    <option name="processLiterals" value="false" />
+    <option name="processComments" value="false" />
   </inspection_tool>
 </profile>
