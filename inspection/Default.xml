@@ -33,4 +33,5 @@
     <option name="processLiterals" value="false" />
     <option name="processComments" value="false" />
   </inspection_tool>
+  <inspection_tool class="StandardJS" enabled="true" level="ERROR" enabled_by_default="true" />
 </profile>
