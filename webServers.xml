@@ -1,9 +1,0 @@
-<application>
-  <component name="WebServers">
-    <option name="servers">
-      <webServer id="aa02af8b-620a-45e5-92a1-3e225b43e9bb" name="ec2-user@ec2-35-180-178-111.eu-west-3.compute.amazonaws.com:22 key">
-        <fileTransfer rootFolder="/home/ec2-user/ch_course" accessType="SFTP" sshConfigId="384bc20c-373d-49ee-9bed-1e75ef25d774" sshConfig="ec2-user@ec2-15-188-53-192.eu-west-3.compute.amazonaws.com:22 key" />
-      </webServer>
-    </option>
-  </component>
-</application>
