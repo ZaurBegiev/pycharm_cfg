@@ -1,7 +1,9 @@
 <application>
   <component name="SshConfigs">
     <configs>
-      <sshConfig host="ec2-15-188-53-192.eu-west-3.compute.amazonaws.com" id="e105a043-94c7-4635-803b-b13984cbd443" keyPath="C:\Users\zaur_\main.pem" port="22" nameFormat="DESCRIPTIVE" username="ec2_user" useOpenSSHConfig="true" />
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="13.36.221.1" id="e105a043-94c7-4635-803b-b13984cbd443" keyPath="C:\Users\zaur_\main.pem" port="22" customName="bpartsprod" nameFormat="CUSTOM" username="ec2-user" useOpenSSHConfig="false">
+        <option name="customName" value="bpartsprod" />
+      </sshConfig>
     </configs>
   </component>
 </application>

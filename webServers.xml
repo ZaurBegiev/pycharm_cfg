@@ -1,0 +1,9 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ff7ed027-fb86-476d-980c-1bb18f69d583" name="bpartsprod">
+        <fileTransfer rootFolder="/home/ec2-user/ozon_data_test" accessType="SFTP" host="13.36.221.1" port="22" sshConfigId="e105a043-94c7-4635-803b-b13984cbd443" sshConfig="bpartsprod" keyPair="true" />
+      </webServer>
+    </option>
+  </component>
+</application>
