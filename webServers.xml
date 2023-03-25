@@ -1,8 +1,8 @@
 <application>
   <component name="WebServers">
     <option name="servers">
-      <webServer id="ff7ed027-fb86-476d-980c-1bb18f69d583" name="bpartsprod">
-        <fileTransfer rootFolder="/home/ec2-user/ozon_data" accessType="SFTP" host="13.36.221.1" port="22" sshConfigId="e105a043-94c7-4635-803b-b13984cbd443" sshConfig="bpartsprod" keyPair="true" />
+      <webServer id="f75f4e92-f38e-4621-b014-b36e20ca2d14" name="root@64.226.108.123:22 password">
+        <fileTransfer rootFolder="/root/ozon_data" accessType="SFTP" host="64.226.108.123" port="22" sshConfigId="ef6fc4a6-e285-4552-9f23-4edec7251a87" sshConfig="root@64.226.108.123:22 password" />
       </webServer>
     </option>
   </component>
