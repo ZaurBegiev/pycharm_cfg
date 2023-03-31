@@ -1,8 +1,8 @@
 <application>
   <component name="WebServers">
     <option name="servers">
-      <webServer id="f75f4e92-f38e-4621-b014-b36e20ca2d14" name="ozon_data">
-        <fileTransfer rootFolder="/root/ozon_data" accessType="SFTP" host="64.226.108.123" port="22" sshConfigId="ef6fc4a6-e285-4552-9f23-4edec7251a87" sshConfig="root@64.226.108.123:22 password" />
+      <webServer id="f75f4e92-f38e-4621-b014-b36e20ca2d14" name="bparts-api-data">
+        <fileTransfer rootFolder="/root/bparts-api-data" accessType="SFTP" host="64.226.108.123" port="22" sshConfigId="ef6fc4a6-e285-4552-9f23-4edec7251a87" sshConfig="root@64.226.108.123:22 password" />
       </webServer>
       <webServer id="4fd6a739-e485-4007-b0d3-618c4c989e2b" name="dags">
         <fileTransfer rootFolder="/root/airflow/dags" accessType="SFTP" host="64.226.108.123" port="22" sshConfigId="ef6fc4a6-e285-4552-9f23-4edec7251a87" sshConfig="root@64.226.108.123:22 password" />
