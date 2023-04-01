@@ -1,7 +1,9 @@
 <application>
   <component name="SshConfigs">
     <configs>
-      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="64.226.108.123" id="ef6fc4a6-e285-4552-9f23-4edec7251a87" port="22" nameFormat="DESCRIPTIVE" username="root" useOpenSSHConfig="true" />
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="64.226.108.123" id="303418de-cda4-467d-b235-03c02f533f1c" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="bpartsprod" nameFormat="CUSTOM" username="root" useOpenSSHConfig="true">
+        <option name="customName" value="bpartsprod" />
+      </sshConfig>
     </configs>
   </component>
 </application>
