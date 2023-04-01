@@ -8,7 +8,7 @@
         <fileTransfer rootFolder="/root/airflow/" accessType="SFTP" host="64.226.108.123" port="22" sshConfigId="303418de-cda4-467d-b235-03c02f533f1c" sshConfig="airflow-prod" keyPair="true" />
       </webServer>
       <webServer id="ef9582df-6af7-4aeb-892a-de4ed4a04a2b" name="airflow-prod/">
-        <fileTransfer accessType="SFTP" host="64.226.108.123" port="22" sshConfigId="303418de-cda4-467d-b235-03c02f533f1c" sshConfig="airflow-prod" keyPair="true" />
+        <fileTransfer rootFolder="/root/sample-functions-python-jokes/" accessType="SFTP" host="64.226.108.123" port="22" sshConfigId="303418de-cda4-467d-b235-03c02f533f1c" sshConfig="airflow-prod" keyPair="true" />
       </webServer>
       <webServer id="a88bd7e4-3db1-4e28-b90c-e4b516eaf766" name="airflow-test/" url="http://localhost">
         <fileTransfer accessType="SFTP" host="138.68.86.77" port="22" sshConfigId="7e412f7e-5fa9-4546-b7b7-736974644064" sshConfig="airflow-test" keyPair="true">
@@ -23,6 +23,9 @@
             <advancedOptions keepAliveTimeout="0" />
           </advancedOptions>
         </fileTransfer>
+      </webServer>
+      <webServer id="790ed806-06e6-4063-9090-10409a3211c4" name="airflow-prod/root/functiontest">
+        <fileTransfer rootFolder="/root/functiontest" accessType="SFTP" host="64.226.108.123" port="22" sshConfigId="303418de-cda4-467d-b235-03c02f533f1c" sshConfig="airflow-prod" keyPair="true" />
       </webServer>
     </option>
   </component>
