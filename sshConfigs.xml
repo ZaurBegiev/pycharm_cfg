@@ -1,8 +1,11 @@
 <application>
   <component name="SshConfigs">
     <configs>
-      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="64.226.108.123" id="303418de-cda4-467d-b235-03c02f533f1c" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="bpartsprod" nameFormat="CUSTOM" username="root" useOpenSSHConfig="true">
-        <option name="customName" value="bpartsprod" />
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="64.226.108.123" id="303418de-cda4-467d-b235-03c02f533f1c" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="airflow-prod" nameFormat="CUSTOM" username="root" useOpenSSHConfig="true">
+        <option name="customName" value="airflow-prod" />
+      </sshConfig>
+      <sshConfig host="138.68.86.77" id="7e412f7e-5fa9-4546-b7b7-736974644064" keyPath="C:\Users\zaur_\.ssh\id_rsa" port="22" customName="airflow-test" nameFormat="CUSTOM" username="root" useOpenSSHConfig="true">
+        <option name="customName" value="airflow-test" />
       </sshConfig>
     </configs>
   </component>
