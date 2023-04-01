@@ -1,31 +1,14 @@
 <application>
   <component name="WebServers">
     <option name="servers">
-      <webServer id="f75f4e92-f38e-4621-b014-b36e20ca2d14" name="airflow-prod/root/bparts-api-data">
-        <fileTransfer rootFolder="/root/bparts-api-data" accessType="SFTP" host="64.226.108.123" port="22" sshConfigId="303418de-cda4-467d-b235-03c02f533f1c" sshConfig="airflow-prod" keyPair="true" />
+      <webServer id="f75f4e92-f38e-4621-b014-b36e20ca2d14" name="airflow/root/bparts-api-data">
+        <fileTransfer rootFolder="/root/bparts-api-data" accessType="SFTP" host="64.226.108.123" port="22" sshConfigId="303418de-cda4-467d-b235-03c02f533f1c" sshConfig="airflow" keyPair="true" />
       </webServer>
-      <webServer id="4fd6a739-e485-4007-b0d3-618c4c989e2b" name="airflow-prod/root/airflow/">
-        <fileTransfer rootFolder="/root/airflow/" accessType="SFTP" host="64.226.108.123" port="22" sshConfigId="303418de-cda4-467d-b235-03c02f533f1c" sshConfig="airflow-prod" keyPair="true" />
+      <webServer id="4fd6a739-e485-4007-b0d3-618c4c989e2b" name="airflow/root/airflow/">
+        <fileTransfer rootFolder="/root/airflow/" accessType="SFTP" host="64.226.108.123" port="22" sshConfigId="303418de-cda4-467d-b235-03c02f533f1c" sshConfig="airflow" keyPair="true" />
       </webServer>
-      <webServer id="ef9582df-6af7-4aeb-892a-de4ed4a04a2b" name="airflow-prod/">
-        <fileTransfer rootFolder="/root/sample-functions-python-jokes/" accessType="SFTP" host="64.226.108.123" port="22" sshConfigId="303418de-cda4-467d-b235-03c02f533f1c" sshConfig="airflow-prod" keyPair="true" />
-      </webServer>
-      <webServer id="a88bd7e4-3db1-4e28-b90c-e4b516eaf766" name="airflow-test/" url="http://localhost">
-        <fileTransfer accessType="SFTP" host="138.68.86.77" port="22" sshConfigId="7e412f7e-5fa9-4546-b7b7-736974644064" sshConfig="airflow-test" keyPair="true">
-          <advancedOptions>
-            <advancedOptions keepAliveTimeout="0" />
-          </advancedOptions>
-        </fileTransfer>
-      </webServer>
-      <webServer id="c43829c6-2c2f-4a5a-8c76-b10829d11007" name="airflow-test/root/airflow/" url="http://localhost">
-        <fileTransfer rootFolder="/root/airflow" accessType="SFTP" host="138.68.86.77" port="22" sshConfigId="7e412f7e-5fa9-4546-b7b7-736974644064" sshConfig="airflow-test" keyPair="true">
-          <advancedOptions>
-            <advancedOptions keepAliveTimeout="0" />
-          </advancedOptions>
-        </fileTransfer>
-      </webServer>
-      <webServer id="790ed806-06e6-4063-9090-10409a3211c4" name="airflow-prod/root/sandbox">
-        <fileTransfer rootFolder="/root/test_function" accessType="SFTP" host="64.226.108.123" port="22" sshConfigId="303418de-cda4-467d-b235-03c02f533f1c" sshConfig="airflow-prod" keyPair="true" />
+      <webServer id="790ed806-06e6-4063-9090-10409a3211c4" name="airflow/root/sandbox">
+        <fileTransfer rootFolder="/root/test_function" accessType="SFTP" host="64.226.108.123" port="22" sshConfigId="303418de-cda4-467d-b235-03c02f533f1c" sshConfig="airflow" keyPair="true" />
       </webServer>
     </option>
   </component>
