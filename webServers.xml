@@ -24,8 +24,8 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
-      <webServer id="790ed806-06e6-4063-9090-10409a3211c4" name="airflow-prod/root/functiontest">
-        <fileTransfer rootFolder="/root/functiontest" accessType="SFTP" host="64.226.108.123" port="22" sshConfigId="303418de-cda4-467d-b235-03c02f533f1c" sshConfig="airflow-prod" keyPair="true" />
+      <webServer id="790ed806-06e6-4063-9090-10409a3211c4" name="airflow-prod/root/digital-ocean-serverless-template">
+        <fileTransfer rootFolder="/root/digital-ocean-serverless-template" accessType="SFTP" host="64.226.108.123" port="22" sshConfigId="303418de-cda4-467d-b235-03c02f533f1c" sshConfig="airflow-prod" keyPair="true" />
       </webServer>
     </option>
   </component>
