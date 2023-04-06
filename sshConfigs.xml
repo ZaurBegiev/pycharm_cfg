@@ -4,7 +4,7 @@
       <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="64.226.108.123" id="303418de-cda4-467d-b235-03c02f533f1c" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="airflow" nameFormat="CUSTOM" username="root" useOpenSSHConfig="true">
         <option name="customName" value="airflow" />
       </sshConfig>
-      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="161.35.25.87" id="612b8591-13e0-4154-a76e-4b2bd20bfabc" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="superset" nameFormat="CUSTOM" username="root" useOpenSSHConfig="true">
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="164.92.225.21" id="612b8591-13e0-4154-a76e-4b2bd20bfabc" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="superset" nameFormat="CUSTOM" username="root" useOpenSSHConfig="true">
         <option name="customName" value="superset" />
       </sshConfig>
     </configs>
