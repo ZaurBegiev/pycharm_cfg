@@ -2,13 +2,13 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="f75f4e92-f38e-4621-b014-b36e20ca2d14" name="airflow/root/bparts-api-data">
-        <fileTransfer rootFolder="/root/bparts-api-data" accessType="SFTP" host="64.226.108.123" port="22" sshConfigId="303418de-cda4-467d-b235-03c02f533f1c" sshConfig="airflow" keyPair="true" />
+        <fileTransfer rootFolder="/root/bparts-api-data" accessType="SFTP" host="46.101.178.57" port="22" sshConfigId="303418de-cda4-467d-b235-03c02f533f1c" sshConfig="airflow" keyPair="true" />
       </webServer>
       <webServer id="4fd6a739-e485-4007-b0d3-618c4c989e2b" name="airflow/root/airflow/">
-        <fileTransfer rootFolder="/root/airflow/" accessType="SFTP" host="64.226.108.123" port="22" sshConfigId="303418de-cda4-467d-b235-03c02f533f1c" sshConfig="airflow" keyPair="true" />
+        <fileTransfer rootFolder="/root/" accessType="SFTP" host="46.101.178.57" port="22" sshConfigId="303418de-cda4-467d-b235-03c02f533f1c" sshConfig="airflow" keyPair="true" />
       </webServer>
       <webServer id="790ed806-06e6-4063-9090-10409a3211c4" name="airflow/root/sandbox">
-        <fileTransfer rootFolder="/root/test_function" accessType="SFTP" host="64.226.108.123" port="22" sshConfigId="303418de-cda4-467d-b235-03c02f533f1c" sshConfig="airflow" keyPair="true" />
+        <fileTransfer rootFolder="/root/test_function" accessType="SFTP" host="46.101.178.57" port="22" sshConfigId="303418de-cda4-467d-b235-03c02f533f1c" sshConfig="airflow" keyPair="true" />
       </webServer>
     </option>
   </component>
